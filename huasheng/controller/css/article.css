@@ -1,0 +1,675 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x:hidden;
+	font-family: Microsoft YaHei;
+}
+.active0{
+	background:#19417e;
+	background-size: 100%;
+}
+.container{
+	position:relative;
+	margin:auto;
+	width: 1280px;
+	overflow:hidden;
+	padding:0;
+}
+.head{
+	background: url(../../view/images/top.jpg) #454a8c;
+	background-repeat: no-repeat;
+	background-size: 1400px ;
+	background-position: left;
+	height: 150px;
+	position:relative;
+	min-width:1280px;
+}
+.head .heads{
+	padding-top:10px;
+	text-align:right;
+}
+.head .heads  a{
+	text-decoration: none;
+	color: white;
+	margin-right: 3%;
+}
+.head .search{
+	text-align:right;
+	vertical-align:right;
+	margin-right:10%;
+	padding-top: 76px;
+	position: relative;
+	background:url(../../view/images/bottle.png);
+	background-size:100px;
+	background-repeat:no-repeat;
+	background-position: right;
+}
+.head .search input{
+	outline: none;
+	width: 80px;
+	border-radius: 5px;
+   margin-right: 80px;
+	padding-left: 20px;
+}
+.head .search button{
+	background: white;
+	border:none;
+	position: absolute;
+	top:80px;
+	right: 85px
+}
+.head .guide{
+	position:absolute;
+	bottom: 1%;
+	width:100%;
+	min-width:1280px;
+	background: #454a8c;
+	height:40px;
+	z-index:10000000;
+	
+	
+}
+
+.head .guide div{
+	display: inline-block;
+	padding: 0;
+	margin-left:-3px;
+	color: white;
+}
+.head  .guide .item0{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+
+	position: relative;
+	
+	height:40px;
+	line-height: 40px;
+
+
+}
+.head  .guide .item1{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+
+	height:40px;
+	line-height: 40px;
+
+
+}
+.head  .guide .item2{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+
+	
+	
+	height:40px;
+	line-height: 40px;
+
+}
+.head  .guide .item3{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+
+	
+	
+	height:40px;
+	line-height: 40px;
+
+
+}
+.head  .guide .item4{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+
+	
+	
+	height:40px;
+	line-height: 40px;
+
+
+
+}
+.head  .guide .item5{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+	
+	
+	height:40px;
+	line-height: 40px;
+
+
+}
+.head  .guide .item6{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+
+	
+	
+	height:40px;
+	line-height: 40px;
+
+
+}
+.head  .guide .item7{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+
+	
+	
+	height:40px;
+	line-height: 40px;
+
+
+}
+.head  .guide .item8{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+
+	
+	height:40px;
+	line-height: 40px;
+
+
+}
+.head  .guide .item9{
+	display: inline-block;
+	margin-right:-3px;
+	color:white;
+	padding:0 1.5% ;
+	width:6.5%;
+	text-align:center;
+
+	
+	
+	height:40px;
+	line-height: 40px;
+
+
+}
+.head .guide div:last-child{
+	border-right: none;
+}
+.head .guide div a{
+
+	text-decoration: none;
+	font-size: 18px;
+	
+	color: white;
+	
+}
+.head .guide .item1 .dropdown1{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:9.5%;
+	top:36px;
+	width:9.7%;
+	
+}
+.head .guide .item1 .dropdown1 a{
+	display:block;
+	background:#454a8c;
+	width:100%;
+	border-top: 1px solid white;
+}
+.head .guide .item1 .dropdown1 a:hover{
+	background:#19417e;
+}
+.head .guide .item1:hover .dropdown1{
+	display:block;
+}
+.head .guide .item2 .dropdown2{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:19.3%;
+	top:36px;
+	width:9.7%;
+	
+}
+.head .guide .item2 .dropdown2 a{
+	display:block;
+	background:#454a8c;
+	width:100%;
+	border-top: 1px solid white;
+}
+.head .guide .item2 .dropdown2 a:hover{
+	background:#19417e;
+}
+.head .guide .item2:hover .dropdown2{
+	display:block;
+}
+.head .guide .item3 .dropdown3{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:29.2%;
+	top:36px;
+	width:9.7%;
+	
+}
+.head .guide .item3 .dropdown3 a{
+	display:block;
+	background:#454a8c;
+	width:100%;
+	border-top: 1px solid white;
+}
+.head .guide .item3 .dropdown3 a:hover{
+	background:#19417e;
+}
+.head .guide .item3:hover .dropdown3{
+	display:block;
+}
+.head .guide .item4 .dropdown4{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:39.1%;                  
+	top:36px;
+	width:9.7%;
+	
+}
+.head .guide .item4 .dropdown4 a{
+	display:block;
+	background:#454a8c;
+	width:100%;
+	border-top: 1px solid white;
+}
+.head .guide .item4 .dropdown4 a:hover{
+	background:#19417e;
+}
+.head .guide .item4:hover .dropdown4{
+	display:block;
+}
+.head .guide .item5 .dropdown5{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:48.8%;                  
+	top:36px;
+	width:9.7%;
+	
+}
+.head .guide .item5 .dropdown5 a{
+	display:block;
+	background:#454a8c;
+	width:100%;
+	border-top: 1px solid white;
+}
+.head .guide .item5 .dropdown5 a:hover{
+	background:#19417e;
+}
+.head .guide .item5:hover .dropdown5{
+	display:block;9}
+.head .guide .item6 .dropdown6{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:58.6%;                  
+	top:36px;
+	width:9.7%;
+	
+}
+.head .guide .item6 .dropdown6 a{
+	display:block;
+	background:#454a8c;
+	width:100%;
+	border-top: 1px solid white;
+}
+.head .guide .item6 .dropdown6 a:hover{
+	background:#19417e;
+}
+.head .guide .item6:hover .dropdown6{
+	display:block;
+}
+.head .guide .item7 .dropdown7{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:68.5%;                  
+	top:36px;
+	width:9.7%;
+	
+}
+.head .guide .item7 .dropdown7 a{
+	display:block;
+	background:#454a8c;
+	width:100%;
+	border-top: 1px solid white;
+}
+.head .guide .item7 .dropdown7 a:hover{
+	background:#19417e;
+}
+.head .guide .item7:hover .dropdown7{
+	display:block;
+}
+.head .guide .item8 .dropdown8{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:78.2%;                  
+	top:36px;
+	width:9.7%;
+	
+}
+.head .guide .item8 .dropdown8 a{
+	display:block;
+	background:#454a8c;
+	width:100%;
+	border-top: 1px solid white;
+}
+.head .guide .item8 .dropdown8 a:hover{
+	background:#19417e;
+}
+.head .guide .item8:hover .dropdown8{
+	display:block;
+}
+@media screen and (max-width:1500px){
+	.head .guide .item6 .dropdown6{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:58.6%;                  
+	top:36px;
+	width:9.7%;
+	
+}
+.head .guide .item7 .dropdown7{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:68.6%;                  
+	top:36px;
+	width:9.7%;
+	
+	}
+	.head .guide .item8 .dropdown8{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:78.3%;                  
+	top:36px;
+	width:9.7%;
+	
+}
+}
+@media screen and (max-width:1435px){
+	.head .guide{
+		position:absolute;
+	bottom: 3%;
+	width:100%;
+	min-width:1280px;
+	
+	}
+	.head  .guide div a{
+		font-size:16px;
+	}
+	.head .guide .item6 .dropdown6{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:58.6%;                  
+	top:36px;
+	width:9.7%;
+	
+}
+	.head .guide .item7 .dropdown7{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:68.6%;                  
+	top:36px;
+	width:9.7%;
+	
+	}
+	.head .guide .item8 .dropdown8{
+	z-index: 1000;
+	display:none;
+	position:absolute;
+	left:78.3%;                  
+	top:36px;
+	width:9.8%;
+	
+}
+}
+@media screen and (max-width:1200px){
+.head{
+	background: url(../../view/images/top.jpg) #454a8c;
+	background-repeat: no-repeat;
+	background-size: 1200px ;
+	background-position: left;
+	height: 150px;
+	position:relative;
+	min-width:1280px;
+}
+}
+/*主体*/
+.guide-c{
+	float: left;
+	background:#f4f4f4;
+	margin:30px 3% 30px 7%;
+	height:500px;
+	width: 178.86px;
+}
+
+.guide-head{
+	width:100%;
+	font-size:25px;
+	color:#447bcf;
+	text-align:center;
+	background:#ccd8e7;
+	padding:15px 0;
+}
+.child1{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	color:#726868;
+	border-bottom: 1px solid #cdcdcd;
+	cursor: pointer;
+}
+.child2{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	color:#726868;
+	border-bottom: 1px solid #cdcdcd;
+	cursor: pointer;
+}
+.child3{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	color:#726868;
+	border-bottom: 1px solid #cdcdcd;
+	cursor: pointer;
+}
+.child4{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	color:#726868;
+	border-bottom: 1px solid #cdcdcd;
+	cursor: pointer;
+}
+.child5{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	color:#726868;
+	border-bottom: 1px solid #cdcdcd;
+	cursor: pointer;
+}
+.active{
+	background:white;
+	color:black;
+	//color:#726868;
+}
+.child1 i{
+	padding:0 10px;
+}
+.child2 i{
+	padding:0 10px;
+}
+.child3 i{
+	padding:0 10px;
+}
+.child4 i{
+	padding:0 10px;
+}
+.child5 i{
+	padding:0 10px;
+}
+.main-content{
+	float:left;
+	width:70%;
+	padding:0;
+	min-width:750px;
+	margin:20px 0 20px 0;
+}
+.main-content h2{
+	color:#3272cd;
+}
+
+.main-content hr{
+	border-bottom:2px solid #3272cd;
+}
+.content h3{
+	text-align:center;
+	color:#91742bde;
+}
+.content .small1{
+	margin-left: 30%;
+	margin-right:10px;
+	font-size:15px;
+	color:gray;
+}
+.content .small2{
+	margin-right:10px;
+	color:gray;
+}
+.content .small3{
+	margin-right:10px;
+	color:gray;
+}
+.content p .center{
+	text-align:center;
+}
+.main-content a{
+	display:block;
+	margin-bottom:10px;
+}
+
+/*底栏*/
+.footer{
+		width:100%;
+		min-width:1280px;
+		background:url(../../view/images/bottom.jpg);
+		background-repeat: no-repeat;
+		
+		background-position:center;
+		clear: both;
+		position: relative;
+		height: 240px;
+
+}
+.foot0{
+	position: absolute;
+	top: 150px;
+	left: 35%;
+	
+	color: white;
+	font-size: 10px;
+}
+.foot1{
+	position: absolute;
+	top: 170px;
+	left: 43%;
+	
+	color: white;
+	font-size: 10px;
+}
+.foot2{
+		position: absolute;
+	top: 190px;
+	left: 38%;
+	
+	color: white;
+	font-size: 10px;
+}
+.footer .wx{
+	position: absolute;
+	background: white;
+	border-radius: 5px;
+	
+	top:50px;
+	right: 20%;
+}
+.footer .wx img{
+	padding:2px;
+	width: 100px;
+}
+.footer .word{
+	color: white;
+	position: absolute;
+	right: 21%;
+	top:160px;
+}
+.left1{
+	top:10%;
+	position: absolute;
+	left:10%;
+	padding-right: 10px;
+	border-right: 1px solid white;
+
+}
+.left1 a{
+	padding-bottom: 10px;
+	display: block;
+	color: white;
+	font-size: 	10px
+}
+
+.link h4{
+	display: inline-block;
+}
+.link  .c{
+	display: inline-block;
+	margin-right: 20px;
+}
